@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/AndrewMatayka/MMM-ClickUPv2-Server/issues"
   },
-  "homepage": "https://github.com/AndrewMatayka/MMM-ClickUPv2-Server#readme"
+  "homepage": "https://github.com/AndrewMatayka/MMM-ClickUPv2-Server#readme",
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  }
 }
