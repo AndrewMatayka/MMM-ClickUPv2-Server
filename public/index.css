@@ -1,0 +1,16 @@
+.clearfix {
+    clear: both;
+}
+
+#myTextarea {
+    resize: none;
+    float: left;
+}
+
+#myButton {
+    position: relative;
+}
+
+#test {
+    display: none;
+}
