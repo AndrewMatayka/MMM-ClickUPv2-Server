@@ -2,6 +2,8 @@
 This is the Web Server portion of the [MMM-ClickUPv2](https://github.com/AndrewMatayka/MMM-ClickUPv2) project.
 This Web Server required you to enter your ClickUP Client ID, and in return it will give you an Access Code.
 
+[![Node.js Build](https://github.com/AndrewMatayka/MMM-ClickUPv2-Server/actions/workflows/node.js.yml/badge.svg)](https://github.com/AndrewMatayka/MMM-ClickUPv2-Server/actions/workflows/node.js.yml)
+
 ## Installation
 1. Navigate into any and execute the command `git clone https://github.com/AndrewMatayka/MMM-ClickUPv2-Server.git`.
    A new folder will appear, navigate into it.
