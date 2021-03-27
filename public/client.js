@@ -50,7 +50,7 @@ function showAuthWindow(options) {
 //Create Event listener for Button
 let client_id = "";
 if (button !== null) {
-    button.addEventListener('click', function (e) {
+    button.addEventListener('click', function () {
         client_id = textarea.value;
         if (client_id.length > 0) {
             createAuth();
