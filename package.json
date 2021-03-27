@@ -28,6 +28,7 @@
     "fsevents": "^2.3.2"
   },
   "dependencies": {
+    "chai": "^4.3.4",
     "request": "^2.88.2"
   }
 }
