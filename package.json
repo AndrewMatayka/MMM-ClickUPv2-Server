@@ -26,5 +26,8 @@
   "homepage": "https://github.com/AndrewMatayka/MMM-ClickUPv2-Server#readme",
   "optionalDependencies": {
     "fsevents": "^2.3.2"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
   }
 }
