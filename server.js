@@ -3,13 +3,14 @@ console.log('Server-side code running');
 
 /* REQUIRE FOR WEB SERVER & FILE MANAGEMENT */
 const fs = require('fs');
-const http = require('http');
+const ip = require('ip');
 const path = require('path');
 const https = require('https');
 const express = require('express');
 
 //Using Express
 const app = express();
+const ipAddress = ip.address();
 
 //Including Loading HTML File in Root
 app.get('/loading.html', function (req, res) {
@@ -36,3 +37,4 @@ app.listen(80);
 https.createServer(httpsOptions, app).listen(443, function () {
     console.log('Express HTTPS server listening on port ' + 443);
 });
+console.log('Express Server exposed on IP: ' + ipAddress);
