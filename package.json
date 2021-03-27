@@ -29,6 +29,8 @@
   },
   "dependencies": {
     "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
     "request": "^2.88.2"
   }
 }
