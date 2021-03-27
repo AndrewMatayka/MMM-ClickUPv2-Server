@@ -1,7 +1,23 @@
 # MMM-ClickUPv2-Server
+This is the Web Server portion of the [MMM-ClickUPv2](https://github.com/AndrewMatayka/MMM-ClickUPv2) project.
+This Web Server required you to enter your ClickUP Client ID, and in return it will give you an Access Code.
+
+## Installation
+1. Navigate into any and execute the command `git clone https://github.com/AndrewMatayka/MMM-ClickUPv2-Server.git`.
+   A new folder will appear, navigate into it.
+2. Execute the command `npm install` in order to install the required node dependencies.
+
+## Running
+Running this web server is super simple and has some instructions as well from [MMM-ClickUPv2](https://github.com/AndrewMatayka/MMM-ClickUPv2).
+There is only one step required:
+1. Run the following command in the project directory `npm start`.
+
+Complete instructions can be found at the following [Project URL](https://github.com/AndrewMatayka/MMM-ClickUPv2#Setup-Guide).
 
 ## Dependencies
-* [electron](https://www.npmjs.com/package/request) (Installed via `npm install` from [Installation](#installation))
+* [ip](https://www.npmjs.com/package/ip) (Installed via `npm install` from [Installation](#installation))
+* [path](https://www.npmjs.com/package/path) (Installed via `npm install` from [Installation](#installation))
+* [express](https://www.npmjs.com/package/express) (Installed via `npm install` from [Installation](#installation))
 
 # The MIT License (MIT)
 Copyright © 2021 Andrew Matayka
