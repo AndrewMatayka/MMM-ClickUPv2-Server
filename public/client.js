@@ -31,7 +31,7 @@ function showAuthWindow(options) {
     let oauthWindow = centeredPopup(options.path, options.windowName, options.windowOptions.width, options.windowOptions.height, options.windowOptions.scroll);
     let oauthInterval = window.setInterval(function () {
         try {
-            if (oauthWindow.document.domain === document.domain) {
+            if (oauthWindow.document.domain === document.domain || oauthWindow.document.domain === "127.0.0.1") {
                 if (leftDomain && oauthWindow.document.readyState === "complete") {
                     clearInterval(oauthInterval);
                     options.callback(oauthWindow.document.URL);
