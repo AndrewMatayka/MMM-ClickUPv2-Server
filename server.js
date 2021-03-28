@@ -12,11 +12,6 @@ const express = require('express');
 const app = express();
 const ipAddress = ip.address();
 
-//Including Loading HTML File in Root
-app.get('/loading.html', function (req, res) {
-    res.sendFile(path.join(__dirname + '/loading.html'));
-});
-
 //Redirect HTTP to HTTPS
 app.enable("trust proxy");
 app.use(function(request, response, next) {

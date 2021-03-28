@@ -20,6 +20,10 @@ Complete instructions can be found at the following [Project URL](https://github
 * [ip](https://www.npmjs.com/package/ip) (Installed via `npm install` from [Installation](#installation))
 * [path](https://www.npmjs.com/package/path) (Installed via `npm install` from [Installation](#installation))
 * [express](https://www.npmjs.com/package/express) (Installed via `npm install` from [Installation](#installation))
+* [mocha](https://www.npmjs.com/package/mocha) (Installed via `npm install` from [Installation](#installation))
+* [chai](https://www.npmjs.com/package/chai) (Installed via `npm install` from [Installation](#installation))
+* [request](https://www.npmjs.com/package/request) (Installed via `npm install` from [Installation](#installation))
+
 
 # The MIT License (MIT)
 Copyright © 2021 Andrew Matayka
